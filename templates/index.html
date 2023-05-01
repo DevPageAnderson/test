@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>머신러닝 테스트 페이지</title>
+</head>
+<body>
+    <h3>Feature를 입력하고 예측 버튼을 누르세요!</h3>
+
+    <form action="/predict" method="POST">
+        <label>작업온도</label>
+        <input type="text" name="temperature" id="temperature">
+        <br><br>
+
+        <label>작업속도</label>
+        <input type="text" name="speed" id="speed">
+        <br><br>
+
+        <label>케이블 외경</label>
+        <input type="diameter" name="diameter" id="diameter">
+        <br><br>
+
+        <input type="submit" value="예 측">
+    </form>
+</body>
+</html>
